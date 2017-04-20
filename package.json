@@ -2,14 +2,17 @@
   "name": "nodejs-debug",
   "version": "1.0.0",
   "private": true,
-  "main": "server.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node ./bin/www"
+  },
   "dependencies": {
-    "express": "^4.14.0",
-    "body-parser": "^1.15.0",
-    "ejs": "^2.5.2",
-    "mongojs": "^2.4.0",
-    "cookie-parser": "^1.4.3"
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
   },
   "devDependencies": {
     "node-inspector": "^1.1.0"
